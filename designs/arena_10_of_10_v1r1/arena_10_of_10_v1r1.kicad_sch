@@ -5,12 +5,25 @@
 	(uuid "056666d2-2c8f-491c-bcad-db3c517779a8")
 	(paper "A4")
 	(lib_symbols)
+	(bus_alias "AIN"
+		(members "A0" "A1")
+	)
 	(bus_alias "TNY"
 		(members "SCK_B0" "MOSI_B0" "MISO_B0" "SCK_B1" "MOSI_B1" "MISO_B1" "CS_00"
 			"CS_01" "CS_02" "CS_03" "CS_04" "CS_05" "CS_06" "CS_07" "CS_08" "CS_09"
 			"CS_10" "CS_11" "CS_12" "CS_13" "CS_14" "CS_15" "CS_16" "CS_17" "CS_18"
 			"CS_19" "EINT"
 		)
+	)
+	(bus
+		(pts
+			(xy 62.23 41.91) (xy 74.93 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b81581f-e586-4674-8612-975cf734140b")
 	)
 	(bus
 		(pts
@@ -24,13 +37,13 @@
 	)
 	(bus
 		(pts
-			(xy 62.23 45.72) (xy 74.93 45.72)
+			(xy 62.23 48.26) (xy 74.93 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ba78cf13-9584-422f-b40f-75c1e2983643")
+		(uuid "ca8372fa-8e69-48db-a859-e807f389b32e")
 	)
 	(bus
 		(pts
@@ -241,7 +254,7 @@
 			)
 		)
 		(pin "I2C{I2C}" bidirectional
-			(at 74.93 45.72 180)
+			(at 74.93 41.91 180)
 			(uuid "c0181318-7de9-4d83-b804-e9b1bff3260d")
 			(effects
 				(font
@@ -258,6 +271,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "AIN{AIN}" bidirectional
+			(at 74.93 48.26 180)
+			(uuid "6948bba2-253e-4ae0-b48b-a60506943579")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -305,8 +328,18 @@
 			)
 		)
 		(pin "I2C{I2C}" bidirectional
-			(at 62.23 45.72 0)
+			(at 62.23 41.91 0)
 			(uuid "93b7c890-8018-463d-aaf5-16600a5d8ea0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AIN{AIN}" bidirectional
+			(at 62.23 48.26 0)
+			(uuid "d3397ebc-91a3-4bd2-8a15-686b94af8373")
 			(effects
 				(font
 					(size 1.27 1.27)

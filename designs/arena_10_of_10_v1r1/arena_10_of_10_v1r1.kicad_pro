@@ -821,6 +821,46 @@
     [
       "3f6f12ad-0207-48b9-8360-f583cf48d0a1",
       "Mount Holes"
+    ],
+    [
+      "9b468e74-79ee-465b-ae7d-b6ab4b002f1c",
+      "MISO B0 Enable for P1"
+    ],
+    [
+      "bf6ef2c0-f005-4972-898b-c9629407e536",
+      "MISO B0 Enable for P2"
+    ],
+    [
+      "82d69cbf-2c9b-406a-a84e-15b11f6b123c",
+      "MISO B0 Enable for P3"
+    ],
+    [
+      "b38dbd99-8738-4c2a-825a-1f2f9de5b034",
+      "MISO B0 Enable for P4"
+    ],
+    [
+      "e99da9a6-d06a-4375-b2d0-d3c9f2855d32",
+      "MISO B0 Enable for P5"
+    ],
+    [
+      "663415c4-f2de-423f-a044-435b4d777b8b",
+      "MISO B1 Enable for P6"
+    ],
+    [
+      "840d2656-6345-40d2-bf40-7d6d7915beb9",
+      "MISO B1 Enable for P7"
+    ],
+    [
+      "437aabdb-2b8c-4506-bc2a-ce7944911b34",
+      "MISO B1 Enable for P8"
+    ],
+    [
+      "091d19c8-f73c-4fb8-8db3-0eee7b084dbc",
+      "MISO B1 Enable for P9"
+    ],
+    [
+      "28556eb3-29fc-492e-8ec1-5db2a88ed7ef",
+      "MISO B1 Enable for P10"
     ]
   ],
   "text_variables": {}
