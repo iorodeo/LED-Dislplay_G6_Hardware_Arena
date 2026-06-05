@@ -1,0 +1,5 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"C42, C47, C52, C57, C62, C67, C72, C77, C82, C87",1210,10,100uF,C7432790
+"J10, J11, J12, J13, J14, J15, J16, J17, J18, J19, J20, J21, J22, J23, J24, J5, J6, J7, J8, J9",PinHeader_1x05_P2.54mm_Vertical,20,Conn_01x05,C492404
+J25,DC-053D-20A,1,Barrel_Jack,C707274
+SW1,slide_switch,1,SW_SPDT,C19189125
